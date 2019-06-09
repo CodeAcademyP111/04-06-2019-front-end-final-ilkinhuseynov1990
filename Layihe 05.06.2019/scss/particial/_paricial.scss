@@ -1,0 +1,199 @@
+%dropdown-menu {
+    position: absolute;
+    top: 198%;
+    left: -810px;
+    z-index: 1000;
+    display: none;
+    float: left;
+    min-width: 69rem;
+    padding: .5rem 0;
+    margin: .125rem 0 0;
+    font-size: 1rem;
+    color: #212529;
+    text-align: left;
+    list-style: none;
+    background-clip: padding-box;
+    border: 1px solid rgba(0, 0, 0, .15);
+    border-radius: .25rem;
+    background-color: #fff;
+
+}
+
+%button{
+    width:150px;
+    border-radius: 5px;
+    background-color: #2250FC;
+    color:#fff;
+    cursor: pointer;
+    text-align: center;
+    text-decoration:none;
+    display: inline-block;
+}
+
+
+.mybutton{
+    @extend %button;
+    padding:5px;
+    font-size:16px;
+}
+
+
+.mybutton1{
+    @extend %button;
+    padding:5px;
+    font-size:16px;
+    position: absolute;
+    left:0;
+
+}
+
+.dropdown-menum{
+    @extend %dropdown-menu;
+    position: absolute;
+    top: 198%;
+    left: -5px;
+    z-index: 1000;
+    display: none;
+    float: left;
+    min-width: 10rem;
+    padding: .5rem 0;
+    margin: .125rem 0 0;
+    font-size: 1rem;
+    color: #212529;
+    text-align: left;
+    list-style: none;
+    background-clip: padding-box;
+    border: 1px solid rgba(0, 0, 0, .15);
+    border-radius: .25rem;
+
+}
+
+.dropdown-elements {
+    @extend %dropdown-menu;
+    position: absolute;
+    top: 198%;
+    left: -550px;
+    z-index: 1000;
+    display: none;
+    float: left;
+    min-width: 69rem;
+    padding: .5rem 0;
+    margin: .125rem 0 0;
+    font-size: 1rem;
+    color: #212529;
+    text-align: left;
+    list-style: none;
+    background-clip: padding-box;
+    border: 1px solid rgba(0, 0, 0, .15);
+    border-radius: .25rem;
+
+
+}
+
+.dropdown-blogs {
+    @extend %dropdown-menu;
+    position: absolute;
+    top: 198%;
+    left: -850px;
+    z-index: 1000;
+    display: none;
+    float: left;
+    min-width: 69rem;
+    padding: .5rem 0;
+    margin: .125rem 0 0;
+    font-size: 1rem;
+    color: #212529;
+    text-align: left;
+    list-style: none;
+    background-clip: padding-box;
+    border: 1px solid rgba(0, 0, 0, .15);
+    border-radius: .25rem;
+   
+}
+
+
+.dropdown-portfolio{
+    @extend %dropdown-menu;
+    position: absolute;
+    top: 198%;
+    left: -750px;
+    z-index: 1000;
+    display: none;
+    float: left;
+    min-width: 69rem;
+    padding: .5rem 0;
+    margin: .125rem 0 0;
+    font-size: 1rem;
+    color: #212529;
+    text-align: left;
+    list-style: none;
+    background-clip: padding-box;
+    border: 1px solid rgba(0, 0, 0, .15);
+    border-radius: .25rem;
+   
+
+}
+
+.dropdown-shop {
+    @extend %dropdown-menu;
+    position: absolute;
+    top: 198%;
+    left: -900px;
+    z-index: 1000;
+    display: none;
+    float: left;
+    min-width: 69rem;
+    padding: .5rem 0;
+    margin: .125rem 0 0;
+    font-size: 1rem;
+    color: #212529;
+    text-align: left;
+    list-style: none;
+    background-clip: padding-box;
+    border: 1px solid rgba(0, 0, 0, .15);
+    border-radius: .25rem;
+    
+}
+
+
+.dropdown-icon1{
+    @extend %dropdown-menu;
+    position: absolute;
+    top: 198%;
+    left: -1000px;
+    z-index: 1000;
+    display: none;
+    float: left;
+    min-width: 69rem;
+    padding: .5rem 0;
+    margin: .125rem 0 0;
+    font-size: 1rem;
+    color: #212529;
+    text-align: left;
+    list-style: none;
+    background-clip: padding-box;
+    border: 1px solid rgba(0, 0, 0, .15);
+    border-radius: .25rem;
+    
+}
+
+.dropdown-icon2{
+    @extend %dropdown-menu;
+    position: absolute;
+    top: 198%;
+    left: -1000px;
+    z-index: 1000;
+    display: none;
+    float: left;
+    min-width: 69rem;
+    padding: .5rem 0;
+    margin: .125rem 0 0;
+    font-size: 1rem;
+    color: #212529;
+    text-align: left;
+    list-style: none;
+    background-clip: padding-box;
+    border: 1px solid rgba(0, 0, 0, .15);
+    border-radius: .25rem;
+    
+}

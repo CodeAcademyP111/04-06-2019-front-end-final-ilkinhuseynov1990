@@ -1,0 +1,216 @@
+#headertop{
+    border-bottom:thin solid silver;
+
+    .top-menu {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        float: left;
+
+
+        li{
+            display: inline-block;
+            height: 40px;
+            line-height: 40px;
+
+            a{
+                display: block;
+                font-size: 12px;
+                font-weight: 500;
+                height: 40px;
+                margin-right: 16px;
+                text-decoration: none;  
+                background-color: transparent;
+                color: #565656;
+            }
+        }
+    }
+
+
+    .social-icons ul{
+        float: right;
+        height: 100%;
+        overflow: hidden;
+        list-style: none;
+
+        li{
+            display: inline-block;
+            height: 40px;
+            line-height: 40px;
+          
+            
+            a{
+            height: 32px;
+            width: 32px;
+            line-height: 32px;
+            font-size: 16px;
+            text-align: center;
+            margin: 0 4px 4px 0;
+            border-radius: 4px;
+            border: 0;
+            background: 0 0;
+            color: #333;
+            padding: 10px;
+            
+            }
+
+            &.social-facebook:hover a{
+                background-color: #5d82d1;
+                color:#fff;
+               
+            }
+
+            &.social-twitter:hover a{
+                background-color: #40bff5;
+                color:#fff;
+               
+            }
+
+
+            &.social-google:hover a{
+                background-color: #eb5e4c;;
+                color:#fff;
+               
+            }
+
+            &.social-pinterest:hover a{
+                background-color: #e13138;
+                color:#fff;
+               
+            }
+
+            &.social-vimeo:hover a{
+                background-color: #5d82d1;
+                color:#fff;
+               
+            }
+
+            &.social-linkedin:hover a{
+                background-color: #238cc8;;
+                color:#fff;
+               
+            }
+
+            &.social-dribbble:hover a{
+                background-color: #f7659c;;
+                color:#fff;
+               
+            }
+
+            &.social-youtube:hover a{
+                background-color: #ef4e41;
+                color:#fff;
+               
+            }
+
+            &.social-rss:hover a{
+                background-color: #faa33d;
+                color:#fff;
+               
+            }
+        }
+    }
+
+}
+
+
+
+
+#header{
+
+    nav{
+        ul.menu{
+            float:right;
+            list-style: none;
+            margin-top:30px;
+
+            li{
+                float: left;
+                position: relative;
+               
+
+                a{
+                    text-decoration: none;
+                    font-family: Helvetica,Arial,sans-serif;
+                    padding: 10px 12px;
+                    text-transform: uppercase;
+                    font-size: 12px;
+                    font-weight: 600;
+                    letter-spacing: .6px;
+                    color: #000;
+                    border-radius: 0;
+                    border-width: 0;
+                    border-style: solid;
+                    border-color: transparent;
+                    transition: all .3s ease;
+
+                    &:hover{
+                        color:#2250fc;
+                    }
+                }
+
+               
+
+                &:hover ul.submenu{
+                    display:block; 
+                }
+            }
+
+            ul.submenu{
+                display: none;
+                position: absolute;
+                top:30px;
+                width:200px;
+                border:thin solid silver;
+                list-style: none;
+                margin:0;
+                padding:10px;
+                border-radius: 5px;
+                box-shadow: 0 0 20px #ccc; 
+
+                li{
+                    float: none;
+                    display: flex;
+                    justify-content: space-between;
+
+                    &:hover ul.subsubmenu{
+                        display: block;
+                    }
+                }
+
+
+                ul.subsubmenu{
+                    display: none;
+                    position: absolute;
+                    left:190px;
+                    border:thin solid silver;
+                    box-shadow: 0 0 20px #ccc; 
+                    margin:0;
+                    padding: 10px;
+                    background-color: #ffffff;
+                    width:150px;
+                }
+
+
+            }
+        }
+    }
+}
+
+
+.button{
+    width:50px;
+    height:50px;
+    border:thin solid silver;
+    text-align: center;
+    color:#fff;
+    background-color: #2250fc;
+    line-height: 3;
+    position: absolute;
+    right:20px;
+    top:15px;
+    visibility: visible;
+    border-radius:5px;
+    z-index: 1;
+}
+
