@@ -1,3 +1,8 @@
+*{
+    margin:0;
+    padding:0;
+}
+
 #headertop{
     border-bottom:thin solid silver;
 
@@ -212,5 +217,74 @@
     visibility: visible;
     border-radius:5px;
     z-index: 1;
+}
+
+
+
+#accardion{
+    .actext{
+        width: 500px;
+        margin:0 auto;
+
+
+        h1{
+            font-size:3em;
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+        }
+
+        small{
+            display: block;
+            text-align:center;
+            color:#5656;
+        }
+    }
+}
+
+
+#pagecontent{
+    margin-top: 5%;
+
+    .acshadow{
+        .accardiondef{
+            .accardionbutton{
+                padding: 10px;
+                margin-top:5px;
+                display: flex;
+                justify-content: space-between;
+                border:thin solid silver;
+                box-shadow: 0 0 20px silver;
+            }
+
+            .panel{
+                border:thin solid  silver;
+                padding:10px;
+                box-shadow: 0 0 20px silver;
+            }
+        }
+    }
+
+    .acimple{
+        .accardionsimple{
+            .accardionbutton{
+                padding: 10px;
+                margin-top:5px;
+                display: flex;
+                justify-content: space-between;
+                border:thin solid silver;
+            }
+
+            .panel{
+                border:thin solid  silver;
+                padding:10px;
+            }
+        }
+    }
+
+
+
+
+
+
 }
 

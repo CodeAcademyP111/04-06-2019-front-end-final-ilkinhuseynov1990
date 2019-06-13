@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,SAAS;EACR,OAAO,EAAE,IAAI;EACb,MAAM,EAAC,iBAAiB;EACrB,WAAC;IACG,SAAS,EAAE,IAAI;IACf,KAAK,EAAC,KAAK;IACX,WAAW,EAAC,GAAG;;AAGvB,SAAS;EACL,UAAU,EAAC,EAAE",
+"sources": ["../scss/datatable.scss"],
+"names": [],
+"file": "datatable.css"
+}

@@ -195,20 +195,7 @@ $(document).ready(function () {
 
     // toggle menu;
 
-    $(".button").click(function(){
-         
-        if(!($("#header ul.menu").hasClass("toggle"))){
-
-            
-            $("#header ul.menu").hide();
-            $("#header ul.menu").addClass("toggle");
-
-        }else{
-            $("#header ul.menu").show();
-            $("#header ul.menu").removeClass("toggle");
-        }
-
-    })
+   
 
 
 
